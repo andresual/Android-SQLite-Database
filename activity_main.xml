@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:padding="10dp">
+
+    <Button
+        android:id="@+id/addmem_bt_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD MEMBER" />
+
+    <ListView
+        android:id="@+id/memberList_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="2dp" >
+    </ListView>
+   
+</LinearLayout>    
+
+File: view_member_entry.xml 
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/member_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/member_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:textSize="17sp" 
+        android:textStyle="bold"/>
+
+</LinearLayout>
