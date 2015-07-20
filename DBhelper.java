@@ -1,5 +1,3 @@
-DBhelper.java
-
 package com.pavan.sqlitedemoo;
 
 import android.content.Context;
